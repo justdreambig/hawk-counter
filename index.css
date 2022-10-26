@@ -2,6 +2,7 @@ body {
     background-image: url("hawkcenter.jpeg");
     font-family: Courier New, Courier, monospace, sans-serif;
     font-weight: bold;
+    text-shadow: 0 0 3px #FFFFFF, 0 0 5px yellow;
     text-align: center;
     background-repeat: no-repeat;
     background-position:center center;
@@ -21,34 +22,35 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 30px;
-    width: 400px;
+    width: 450px;
     /* border: 5px solid green; */
-    padding: 0px;
-    margin: 5px;  
+    padding: 20px;
     margin: auto;
 }
 
 h2 {
     font-size: 40px;
-    margin-top: 200px;
-    margin-bottom: 20px;
-    margin: auto;
+    margin-top: 20px;
+    
+    
 }
 
 button {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: black;
     font-weight: bold;
     width: 200px;
     border-radius: 25px;
-    margin: 5px auto 5px;
+    margin: 0px auto;
+    text-shadow: 0 0 3px #FFFFFF, 0 0 5px yellow;
 }
 
 #increment-btn {
     background: tan;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 
@@ -64,4 +66,10 @@ button {
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#two-buttons {
+    display: flex;
+    margin: 20px 20px 20px 20px ;
+    
 }
