@@ -1,0 +1,67 @@
+body {
+    background-image: url("hawkcenter.jpeg");
+    font-family: Courier New, Courier, monospace, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    background-color: #68aaff;    
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    width: 400px;
+    /* border: 5px solid green; */
+    padding: 0px;
+    margin: 5px;  
+    margin: auto;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 25px;
+    margin: 5px auto 5px;
+}
+
+#increment-btn {
+    background: tan;
+    margin-bottom: 10px;
+    
+}
+
+#save-btn {
+    background: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#save-el {
+    font-size: 20px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
