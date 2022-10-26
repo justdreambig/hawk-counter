@@ -8,7 +8,7 @@ body {
     background-position:center center;
     background-attachment:fixed;
     background-color: #050505; /*#68aaff*/
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 #hero {
@@ -28,7 +28,7 @@ h1 {
     /* border: 5px solid rgb(243, 247, 243); */
     padding: 20px;
     margin: auto;
-    background-color: #68aaff; /*#68aaff*/
+     background-color: #68aaff; /* #68aaff */
 }
 
 h2 {
