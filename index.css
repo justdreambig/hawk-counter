@@ -7,7 +7,8 @@ body {
     background-repeat: no-repeat;
     background-position:center center;
     background-attachment:fixed;
-    background-color: #68aaff;    
+    background-color: #050505; /*#68aaff*/
+    border: 5px solid white;
 }
 
 #hero {
@@ -16,16 +17,18 @@ body {
     margin: 10px;
     padding: 20px;
     margin: auto;
+    /* border: 5px solid white; */
 }
 
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 30px;
-    width: 450px;
-    /* border: 5px solid green; */
+    width: 670px;
+    /* border: 5px solid rgb(243, 247, 243); */
     padding: 20px;
     margin: auto;
+    background-color: #68aaff; /*#68aaff*/
 }
 
 h2 {
